@@ -40,13 +40,13 @@ The file structure of the project is as follows:
 
 # Results
 
-#Contributors
+# Contributors
 Varinthon Chowanajin, Watsayaporn , Park Jisoo, Lim Sze Chien
 
-#Acknowledgments
+# Acknowledgments
 Project supervisor: Professor Chung Pei Pien
 
-#References
+# References
 Data sources: 
 https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata
 https://catalog.data.gov/dataset/popular-baby-names
