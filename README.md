@@ -16,7 +16,7 @@ This project is written in R. To get started with this project, follow these ste
   3. Data cleaning:
   - Our first aim is to identify each host's gender. We start by converting all the hosts' names and babies' names into lowercase. Next, create a list of male names and a list of female names. Find the names that appear on both lists and exclude them so we are left with only unique male and female names. After that, assign gender to the host based on their name (if the name is on the male list, then the host's gender will be male, and vice versa). Then assign the value of 1 to males and 0 to females.
 - Our next goal is to get rid of unused columns, clear all the observations that have missing values, and change all the numbers (character class) into a numeric class. We deleted the columns _"house rule"_ and _"license"_ because most of the observations didn't have them. Then we assigned _NA_ to all the blank spaces and excluded all the observations that contained _NA_. We also removed the dollar sign (_$_) and comma (_,_) so we can change the numbers into a numeric class.
-  - Lastly, we created a new column named _building_age_ to show the age of each Airbnb.
+ - Lastly, we created a new column named _building_age_ to show the age of each Airbnb.
   
  4. Data Analysis:
  - We first create new columns for all numeric values by applying a logarithm function to solve the skewed data problem.
