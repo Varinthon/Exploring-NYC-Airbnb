@@ -18,13 +18,13 @@ This project is written in R. To get started with this project, follow these ste
 - Our next goal is to get rid of unused columns, clear all the observations that have missing values, and change all the numbers (character class) into a numeric class. We deleted the columns _"house rule"_ and _"license"_ because most of the observations didn't have them. Then we assigned _NA_ to all the blank spaces and excluded all the observations that contained _NA_. We also removed the dollar sign (_$_) and comma (_,_) so we can change the numbers into a numeric class.
   - Lastly, we created a new column named _building_age_ to show the age of each Airbnb.
   
-  4. Data Analysis:
-  - We first create new columns for all numeric values by applying a logarithm function to solve the skewed data problem.
-  - Identify independent variables (IV) and dependent variables (DV). We used _price_, _review.rate.number_, and _number.of.reviews_ as DVs, and the rest of the data will be IVs. Each of these DVs will have its own analysis model to see which IV influences it the most. In model 1, _price_ is the DV; in model 2, _review.rate.number_ is the DV; and in model 3, _number.of.reviews_ is the DV.
+ 4. Data Analysis:
+ - We first create new columns for all numeric values by applying a logarithm function to solve the skewed data problem.
+ - Identify independent variables (IV) and dependent variables (DV). We used _price_, _review.rate.number_, and _number.of.reviews_ as DVs, and the rest of the data will be IVs. Each of these DVs will have its own analysis model to see which IV influences it the most. In model 1, _price_ is the DV; in model 2, _review.rate.number_ is the DV; and in model 3, _number.of.reviews_ is the DV.
   
-  5. Data Visualization:
-  - Select the IV that has a significant coefficient from the model and create a linear regression model for only the DV and that particular IV again (e.g., _price_ vs. _room_type_).
-  - Extract the coefficient value from the new regression model and plot it using a bar chart.
+5. Data Visualization:
+ - Select the IV that has a significant coefficient from the model and create a linear regression model for only the DV and that particular IV again (e.g., _price_ vs. _room_type_).
+ - Extract the coefficient value from the new regression model and plot it using a bar chart.
 
 # File Structure
 The file structure of the project is as follows:
