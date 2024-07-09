@@ -78,7 +78,7 @@ Varinthon Chowanajin, Watsayaporn , Park Jisoo, Lim Sze Chien
 # 👥 Acknowledgments
 We would like to sincerely thank Professor Pien Chung-Pei, our instructor from the Big Data course, for his advice and assistance throughout the development of our "Exploring New York City Airbnb" project. His expertise have been invaluable in guiding our analysis and helping us overcome obstacles.
 
-Lastly, Thank you to each member of the team involved in this project. Your effort, dedication, and teamwork were essential in conducting this comprehensive analysis. Through your hard work and commitment, we have been able to create an analysis that aims to benefit Airbnb hosts, the general public, Airbnb itself, and researchers. Our project's insights into the New York City Airbnb market will hopefully contribute to informed decision-making and further research in this field.
+Thank you to each member of the team involved in this project. Your effort, dedication, and teamwork were essential in conducting this comprehensive analysis. Through your hard work and commitment, we have been able to create an analysis that aims to benefit Airbnb hosts, the general public, Airbnb itself, and researchers. Our project's insights into the New York City Airbnb market will hopefully contribute to informed decision-making and further research in this field.
 
 # 📄 References
 **Data sources**
