@@ -65,15 +65,21 @@ This project is written in R. To get started with this project, follow these ste
 | `Airbnb_Open_Data` 	   |Contains insight data for Airbnb listings in NYC |
 | `Airbnb NYC.R`	 | The main R file for data analysis. |
 
-# Analysis
+# 📊 Analysis
   - Model 1: Given _price_ as the dependent variable (DV), there is only 1 independent variable (IV) that has a significant p-value: ln_service.fee (<2e-16), indicating high strength and statistical significance. The value of Multiple R-squared of 0.9999 indicates a strong relationship between the predictor variable and the outcome variable, suggesting that the model explains almost all of the variability in the DV based on the included predictors.
   - Model 2: Given _review.rate.number_ as the DV, there are 6 IVs with significant p-values: _neighbourhood.groupBrooklyn_, _neighbourhood.groupManhattan_, _room.typeShared room_, _host_identity_verifiedverified_, _calculated.host.listings.count_, and _availability.365_. However, the Multiple R-squared value is only 0.002364, indicating a model with very limited explanatory power. This suggests that the included predictors do not adequately explain the variability in the dependent variable.
   - Model 3: Given _number.of.reviews_ as the DV, there are 8 IVs with significant p-values: _Gender_, _neighbourhood.groupBrooklyn_, _neighbourhood.groupManhattan_, _room.typePrivate room_, _room.typeShared room_, _ln_minimum.nights_, _ln_service.fee_, _calculated.host.listings.count_, and _availability.365_. However, the Multiple R-squared value is only 0.05026, suggesting that the model explains about 5% of the variance in the DV using the included predictors. This indicates a modest level of explanatory power.
 
-# Results
+# 🔎 Results
 After using three linear regression models, we found that the service fee (IV) was the only significant predictor for price (DV), showing a strong positive impact. The review rate was influenced by neighborhood (Brooklyn and Manhattan), room type (shared room), host identity verification, host listings count, and availability, though the overall model explained little variance. The number of reviews was affected by gender, neighborhood (Brooklyn and Manhattan), room type (private and shared rooms), minimum nights, host listings count, and availability, with similar low explanatory power. These findings suggest that while price is primarily driven by service fees, the review rate and number of reviews are more complex and influenced by multiple factors. To improve the models and better predict or explain the review rate and number of reviews, more in-depth information is needed.
-# Contributors
-Varinthon Chowanajin, Watsayaporn , Park Jisoo, Lim Sze Chien
+
+# 🧠 Contributors
+| :anchor: **Team member**          | :pencil: **Role & Responsibility**            |
+|-----------------------------------|-----------------------------------------------|
+| Varinthon Chowanajin 廖靈通  | Data Collection, Coding, Poster, Presentation, GitHub |
+| Watsayaporn Srimueanghao 史沃天 | Data Collection, Coding, Poster, Presentation, GitHub |
+| Park Jisoo 朴智秀 | Data Collection, Poster, Presentation |
+| Lim Sze Chien 林姿蒨 | Data Collection, Coding, Poster, Presentation |
 
 # 👥 Acknowledgments
 We would like to sincerely thank Professor Pien Chung-Pei, our instructor from the Big Data course, for his advice and assistance throughout the development of our "Exploring New York City Airbnb" project. His expertise have been invaluable in guiding our analysis and helping us overcome obstacles.
