@@ -1,5 +1,5 @@
 # 🛏️ Exploring New Tork City Airbnb
-![airbnb_newyork](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/6bae8cf1-8f5e-40a3-8e4f-59c714abca08)
+  ![airbnb_newyork](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/6bae8cf1-8f5e-40a3-8e4f-59c714abca08)
 
 # 🌐 Project Description
 Airbnb has revolutionized the travel industry since 2008 by providing a platform for homeowners and hosts to rent out their properties to guests seeking unique accommodation experiences, creating value through the sharing economy business model. According to Inside Airbnb, a site that scrapes Airbnb for listings data, New York City has become a big market for Airbnb, with more than 30,000 listings in the city. To explore the potential biases and factors that may influence pricing decisions on this large platform, our data project aims to analyze the New York City Airbnb dataset to identify various factors affecting Airbnb rentals and analyze the influence of independent variables. This can contribute to creating a sustainable lodging industry by providing important insights to stakeholders.
@@ -66,9 +66,50 @@ This project is written in R. To get started with this project, follow these ste
 | `Airbnb NYC.R`	 | The main R file for data analysis. |
 
 # 📊 Analysis
-  - Model 1: Given _price_ as the dependent variable (DV), there is only 1 independent variable (IV) that has a significant p-value: ln_service.fee (<2e-16), indicating high strength and statistical significance. The value of Multiple R-squared of 0.9999 indicates a strong relationship between the predictor variable and the outcome variable, suggesting that the model explains almost all of the variability in the DV based on the included predictors.
-  - Model 2: Given _review.rate.number_ as the DV, there are 6 IVs with significant p-values: _neighbourhood.groupBrooklyn_, _neighbourhood.groupManhattan_, _room.typeShared room_, _host_identity_verifiedverified_, _calculated.host.listings.count_, and _availability.365_. However, the Multiple R-squared value is only 0.002364, indicating a model with very limited explanatory power. This suggests that the included predictors do not adequately explain the variability in the dependent variable.
-  - Model 3: Given _number.of.reviews_ as the DV, there are 8 IVs with significant p-values: _Gender_, _neighbourhood.groupBrooklyn_, _neighbourhood.groupManhattan_, _room.typePrivate room_, _room.typeShared room_, _ln_minimum.nights_, _ln_service.fee_, _calculated.host.listings.count_, and _availability.365_. However, the Multiple R-squared value is only 0.05026, suggesting that the model explains about 5% of the variance in the DV using the included predictors. This indicates a modest level of explanatory power.
+ **Model 1:**
+  - Given _price_ as the dependent variable (DV), there is only 1 independent variable (IV) that has a significant p-value: ln_service.fee (<2e-16), indicating high strength and statistical significance. The value of Multiple R-squared of 0.9999 indicates a strong relationship between the predictor variable and the outcome variable, suggesting that the model explains almost all of the variability in the DV based on the included predictors.
+
+    ![model1_price_vs_serivcefee](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/5880f516-95f3-4256-9811-90a952b7ff9c)
+   
+  - The bar chart illustrates the coefficient for the independent variable (IV) ln_service.fee in relation to the dependent variable (DV) ln_price. The chart is designed to highlight the impact of the service fee on the pricing model.
+
+    Key Highlights
+    - High Significance: The coefficient for ln_service.fee is significantly different from zero with a p-value of <2e-16, indicating a strong and statistically significant relationship between the service fee and the price.
+    - Positive Coefficient: The positive value of the coefficient suggests that as the service fee increases, the price also tends to increase.
+    - Coefficient Value: The exact coefficient value is approximately 0.008669, as shown in the statistical output.
+      
+ **Model 2:** 
+ - Given _review.rate.number_ as the DV, there are 6 IVs with significant p-values: _neighbourhood.groupBrooklyn_, _neighbourhood.groupManhattan_, _room.typeShared room_, _host_identity_verifiedverified_, _calculated.host.listings.count_, and _availability.365_. However, the Multiple R-squared value is only 0.002364, indicating a model with very limited explanatory power. This suggests that the included predictors do not adequately explain the variability in the dependent variable.
+   
+    ![model2_reviewrate_vs_availability](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/6c0249c2-bcea-4af7-b3b4-88b16c497c10)
+   
+   - This bar chart illustrates the coefficient for the independent variable "availability.365" in relation to the review rate. The chart shows a negative coefficient, with the bar extending downwards to approximately -6.451e-05.
+
+   Key Highlights
+    - Negative Relationship: The coefficient is negative, suggesting that as availability increases, the review rate tends to slightly decrease.
+    - Statistical Significance: Despite the small magnitude, the relationship is statistically significant (p = 0.000347).
+
+   ![model2_reviewrate_vs_calculatedhost](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/de643214-c236-49a2-bb61-6bf6ea6e0669)
+   
+   - This bar chart displays the coefficient for the independent variable "calculated.host.listings.count" in relation to the review rate. The chart shows a positive coefficient, with the bar extending upwards to about 8.451e-04.
+
+   Key Highlights
+    - Positive Relationship: The coefficient is positive, indicating that as the number of host listings increases, the review rate tends to slightly increase.
+    - High Statistical Significance: The relationship is highly significant (p < 0.001), as indicated in the model output.
+    - Host Experience: This could suggest that hosts with more listings might receive slightly better reviews, possibly due to more experience or better management practices.
+
+ **Model 3:** 
+ - Given _number.of.reviews_ as the DV, there are 8 IVs with significant p-values: _Gender_, _neighbourhood.groupBrooklyn_, _neighbourhood.groupManhattan_, _room.typePrivate room_, _room.typeShared room_, _ln_minimum.nights_, _ln_service.fee_, _calculated.host.listings.count_, and _availability.365_. However, the Multiple R-squared value is only 0.05026, suggesting that the model explains about 5% of the variance in the DV using the included predictors. This indicates a modest level of explanatory power.
+
+  ![model1_price_vs_serivcefee](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/5880f516-95f3-4256-9811-90a952b7ff9c)
+   
+  - The bar chart illustrates the coefficient for the independent variable (IV) ln_service.fee in relation to the dependent variable (DV) ln_price. The chart is designed to highlight the impact of the service fee on the pricing model.
+
+    Key Highlights
+    - High Significance: The coefficient for ln_service.fee is significantly different from zero with a p-value of <2e-16, indicating a strong and statistically significant relationship between the service fee and the price.
+    - Positive Coefficient: The positive value of the coefficient suggests that as the service fee increases, the price also 
+
+ - 
 
 # 🔎 Results
 After using three linear regression models, we found that the service fee (IV) was the only significant predictor for price (DV), showing a strong positive impact. The review rate was influenced by neighborhood (Brooklyn and Manhattan), room type (shared room), host identity verification, host listings count, and availability, though the overall model explained little variance. The number of reviews was affected by gender, neighborhood (Brooklyn and Manhattan), room type (private and shared rooms), minimum nights, host listings count, and availability, with similar low explanatory power. These findings suggest that while price is primarily driven by service fees, the review rate and number of reviews are more complex and influenced by multiple factors. To improve the models and better predict or explain the review rate and number of reviews, more in-depth information is needed.
