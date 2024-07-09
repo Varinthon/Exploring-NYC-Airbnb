@@ -48,6 +48,6 @@ Project supervisor: Professor Chung Pei Pien
 
 # References
 Data sources: 
-https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata
+https://www.kaggle.com/datasets/arianazmoudeh/airbnbopendata ,
 https://catalog.data.gov/dataset/popular-baby-names
 
