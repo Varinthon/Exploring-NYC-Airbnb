@@ -165,11 +165,11 @@ This project is written in R. To get started with this project, follow these ste
       - Coefficient Value: The exact coefficient value is 0.1001, as shown in the bar chart and confirmed in the statistical output.
       - Magnitude of Effect: This coefficient suggests that, on average, listings by male hosts receive about 10.01% more reviews than those by female hosts, all other factors being equal.
   
-**Gender ratio:**
+**Gender ratio**
    
-   <img width="605" alt="Screenshot 2024-07-10 at 12 59 23 PM" src="https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/b1181df3-c109-44d6-89bc-58cd1eeeec0e">
-    
-    The map displays the distribution of Airbnb host genders across different regions (neighborhoods) in New York City. Blue areas indicate places with more male hosts (where the gender ratio is over 100), and red areas indicate places with more female hosts. According to the New York Census, every borough in New York City has a higher percentage of women than men. Therefore, this suggests that the blue areas on the map are outliers. This map provides a starting point for further investigation into potential patterns or disparities in host gender distribution across different neighborhoods of the city.
+  <img width="605" alt="Screenshot 2024-07-10 at 12 59 23 PM" src="https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/b1181df3-c109-44d6-89bc-58cd1eeeec0e">
+  
+  The map displays the distribution of Airbnb host genders across different regions (neighborhoods) in New York City. Blue areas indicate places with more male hosts (where the gender ratio is over 100), and red areas indicate places with more female hosts. According to the New York Census, every borough in New York City has a higher percentage of women than men. Therefore, this suggests that the blue areas on the map are outliers. This map provides a starting point for further investigation into potential patterns or disparities in host gender distribution across different neighborhoods of the city.
  
 
 # 🔎 Results
