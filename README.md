@@ -154,7 +154,7 @@ This project is written in R. To get started with this project, follow these ste
    
       Key Highlights:
       - High Significance: The coefficient for "Gender Male" is significantly different from zero with a p-value of 1.27e-11, suggesting a strong and statistically significant relationship between gender and the number of reviews.
-      - Positive Coefficient: The positive value of the coefficient (approximately 0.1001) indicates that male hosts tend to receive more reviews compared to the reference category (presumably female hosts).
+      - Positive Coefficient: The positive value of the coefficient (approximately 0.1001) indicates that male hosts tend to receive more reviews compared to the reference category (Female hosts).
       - Coefficient Value: The exact coefficient value is 0.1001, as shown in the bar chart and confirmed in the statistical output.
       - Magnitude of Effect: This coefficient suggests that, on average, listings by male hosts receive about 10.01% more reviews than those by female hosts, all other factors being equal.
   
