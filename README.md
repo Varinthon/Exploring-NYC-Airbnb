@@ -174,7 +174,7 @@ After using three linear regression models, we found that the service fee (IV) w
 | Varinthon Chowanajin 廖靈通  | Data Collection, Coding, Poster, Presentation, GitHub |
 | Watsayaporn Srimueanghao 史沃天 | Data Collection, Coding, Poster, Presentation, GitHub |
 | Park Jisoo 朴智秀 | Data Collection, Coding, Poster, Presentation |
-| Lim Sze Chien 林姿蒨 | Data Collection, Poster, Presentation |
+| Lim Sze Chien Cherie 林姿蒨 | Data Collection, Poster, Presentation |
 
 # 👥 Acknowledgments
 We would like to sincerely thank Professor Pien Chung-Pei, our instructor from the Big Data course, for his advice and assistance throughout the development of our "Exploring New York City Airbnb" project. His expertise has been invaluable in guiding our analysis and helping us overcome obstacles.
