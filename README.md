@@ -177,7 +177,7 @@ After using three linear regression models, we found that the service fee (IV) w
 | Lim Sze Chien 林姿蒨 | Data Collection, Poster, Presentation |
 
 # 👥 Acknowledgments
-We would like to sincerely thank Professor Pien Chung-Pei, our instructor from the Big Data course, for his advice and assistance throughout the development of our "Exploring New York City Airbnb" project. His expertise have been invaluable in guiding our analysis and helping us overcome obstacles.
+We would like to sincerely thank Professor Pien Chung-Pei, our instructor from the Big Data course, for his advice and assistance throughout the development of our "Exploring New York City Airbnb" project. His expertise has been invaluable in guiding our analysis and helping us overcome obstacles.
 
 Thank you to each member of the team involved in this project. Your effort, dedication, and teamwork were essential in conducting this comprehensive analysis. Through your hard work and commitment, we have been able to create an analysis that aims to benefit Airbnb hosts, the general public, Airbnb itself, and researchers. Our project's insights into the New York City Airbnb market will hopefully contribute to informed decision-making and further research in this field.
 
@@ -191,7 +191,7 @@ Inside Airbnb. (n.d.). Los Angeles. http://insideairbnb.com/los-angeles/
 
 **Researches**
 
-Gunter, U., Önder, I., & Zekan, B. (2020). Modeling Airbnb demand to New York City while employing spatial panel data at the listing level. Tourism Management, 77, 104000. https://doi.org/10.1016/j.tourman.2019.104000
+Gunter, U., Önder, I., & Zekan, B. (2020). Modelling Airbnb demand to New York City while employing spatial panel data at the listing level. Tourism Management, 77, 104000. https://doi.org/10.1016/j.tourman.2019.104000
 
 Ellen, I. G. (2017, October). Airbnb usage across New York City neighborhoods: Geographic patterns and regulatory implications. Furman Center for Real Estate and Urban Policy. Retrieved from https://furmancenter.org/research/publication/airbnb-usage-across-new-york-city-neighborhoods-geographic-patterns-and-reg
 
