@@ -64,6 +64,7 @@ This project is written in R. To get started with this project, follow these ste
 | `Names`     | Contains names of boys and girls.|  
 | `Airbnb_Open_Data` 	   |Contains insight data for Airbnb listings in NYC |
 | `Airbnb NYC.R`	 | The main R file for data analysis. |
+| `cb_2017_us_county_500k` | Contains data for map plotting |
 
 # 📊 Analysis & Data Visualization
  **Model 1:**
