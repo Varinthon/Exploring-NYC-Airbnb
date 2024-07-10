@@ -191,6 +191,8 @@ Inside Airbnb. (n.d.). Los Angeles. http://insideairbnb.com/los-angeles/
 
 **Researches**
 
-Nascimento, I. M., & Queiroz, E. P. (2023). The Linear Regression Model for Estimate the Price in Crossing Transport Services: Methodology and Application. In Proceedings of PIANC Smart Rivers 2022. https://doi.org/10.1007/978-981-19-6138-0_126
+Gunter, U., Önder, I., & Zekan, B. (2020). Modeling Airbnb demand to New York City while employing spatial panel data at the listing level. Tourism Management, 77, 104000. https://doi.org/10.1016/j.tourman.2019.104000
 
-Norris, E. (2024, April 29). The Linear Regression of Time and Price. Investopedia. https://www.investopedia.com/articles/trading/09/linear-regression-time-price.asp
+Ellen, I. G. (2017, October). Airbnb usage across New York City neighborhoods: Geographic patterns and regulatory implications. Furman Center for Real Estate and Urban Policy. Retrieved from https://furmancenter.org/research/publication/airbnb-usage-across-new-york-city-neighborhoods-geographic-patterns-and-reg
+
+Nascimento, I. M., & Queiroz, E. P. (2023). The Linear Regression Model for Estimate the Price in Crossing Transport Services: Methodology and Application. In Proceedings of PIANC Smart Rivers 2022. https://doi.org/10.1007/978-981-19-6138-0_126
