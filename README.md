@@ -1,4 +1,4 @@
-# 🛏️ Exploring New Tork City Airbnb
+# 🛏️ Exploring New York City Airbnb
   ![airbnb_newyork](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/6bae8cf1-8f5e-40a3-8e4f-59c714abca08)
 
 # 🌐 Project Description
