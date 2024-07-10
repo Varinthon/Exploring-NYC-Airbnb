@@ -71,7 +71,7 @@ This project is written in R. To get started with this project, follow these ste
 
     ![model1_price_vs_serivcefee](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/5880f516-95f3-4256-9811-90a952b7ff9c)
    
-  - The bar chart illustrates the coefficient for the independent variable (IV) ln_service.fee in relation to the dependent variable (DV) ln_price. The chart is designed to highlight the impact of the service fee on the pricing model.
+  - The bar chart illustrates the coefficient for the independent variable (IV) _ln_service.fee_ in relation to the dependent variable (DV) _ln_price_. The chart is designed to highlight the impact of the service fee on the pricing model.
 
     Key Highlights:
     - High Significance: The coefficient for ln_service.fee is significantly different from zero with a p-value of <2e-16, indicating a strong and statistically significant relationship between the service fee and the price.
@@ -85,7 +85,7 @@ This project is written in R. To get started with this project, follow these ste
    
     ![model2_reviewrate_vs_availability](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/6c0249c2-bcea-4af7-b3b4-88b16c497c10)
    
- - This bar chart illustrates the coefficient for the independent variable "availability.365" in relation to the review rate. The chart shows a negative coefficient, with the bar extending downwards to approximately -6.451e-05.
+ - This bar chart illustrates the coefficient for the independent variable _availability.365_ in relation to the review rate. The chart shows a negative coefficient, with the bar extending downwards to approximately -6.451e-05.
   
      Key Highlights:
     - Negative Relationship: The coefficient is negative, suggesting that as availability increases, the review rate tends to slightly decrease.
@@ -93,7 +93,7 @@ This project is written in R. To get started with this project, follow these ste
 
    ![model2_reviewrate_vs_calculatedhost](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/de643214-c236-49a2-bb61-6bf6ea6e0669)
    
- - This bar chart displays the coefficient for the independent variable "calculated.host.listings.count" in relation to the review rate. The chart shows a positive coefficient, with the bar extending upwards to about 8.451e-04.
+ - This bar chart displays the coefficient for the independent variable _calculated.host.listings.count_ in relation to the review rate. The chart shows a positive coefficient, with the bar extending upwards to about 8.451e-04.
 
    Key Highlights:
       - Positive Relationship: The coefficient is positive, indicating that as the number of host listings increases, the review rate tends to slightly increase.
@@ -108,7 +108,7 @@ This project is written in R. To get started with this project, follow these ste
 
    ![model3_reviewnumber_vs_roomtype](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/b88047a5-2252-464b-9dfe-62a58a5db527)
    
- - This bar chart compares the coefficients for different room types as independent variables (IVs) in relation to the dependent variable (DV) number of reviews. The chart is structured to show the relative impact of each room type on review numbers. 
+ - This bar chart compares the coefficients for different _room types_ as independent variables (IVs) in relation to the dependent variable (DV) number of reviews. The chart is structured to show the relative impact of each room type on review numbers. 
 
       Key Highlights:
       - Negative coefficients: All room types shown (Hotel room, Shared room, Private room) have negative coefficients, as indicated by the downward-extending red bars.
@@ -121,25 +121,17 @@ This project is written in R. To get started with this project, follow these ste
    
    ![model3_reviewnumber_vs_minnight](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/10691f64-34c0-466f-9d65-417bd6e1cd46)
    
- - This bar chart illustrates the coefficient for the independent variable (IV) ln_minimum_nights in relation to the dependent variable (DV) number of reviews. The chart is designed to highlight the impact of the minimum nights requirement on the number of reviews received. 
+ - This bar chart illustrates the coefficient for the independent variable (IV) _ln_minimum_nights_ in relation to the dependent variable (DV) _number of reviews_. The chart is designed to highlight the impact of the minimum nights requirement on the number of reviews received. 
 
       Key Highlights:
       - Negative coefficient: The red bar extends downwards, indicating a negative relationship between minimum nights and number of reviews.
       - Magnitude: The coefficient appears to be approximately -0.2345, based on the y-axis scale.
       - Visual impact: The bar chart illustrates the negative effect, making it easy to see the direction and relative strength of the relationship.
   
-   ![model3_reviewnumber_vs_minnight](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/10691f64-34c0-466f-9d65-417bd6e1cd46)
-   
- - This bar chart illustrates the coefficient for the independent variable (IV) ln_minimum_nights in relation to the dependent variable (DV) number of reviews. The chart is designed to highlight the impact of the minimum nights requirement on the number of reviews received. 
-
-      Key Highlights:
-      - Negative coefficient: The red bar extends downwards, indicating a negative relationship between minimum nights and number of reviews.
-      - Magnitude: The coefficient appears to be approximately -0.2345.
-      - Visual impact: The bar cahrt clearly illustrates the negative effect, making it easy to see the direction and relative strength of the relationship.
 
    ![model3_reviewnumber_vs_availability](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/bdbb9b89-781c-492f-9b2f-3796c2deda0c)
 
- - This bar chart depicts the coefficient for the independent variable (IV) availability.365 in relation to the dependent variable (DV) number of reviews. The chart is designed to showcase the effect of year-round availability on review numbers. 
+ - This bar chart depicts the coefficient for the independent variable (IV) _availability.365_ in relation to the dependent variable (DV) _number of reviews_. The chart is designed to showcase the effect of year-round availability on review numbers. 
 
       Key Highlights:
       - Positive coefficient: The red bar extends upwards, indicating a positive relationship between availability.365 and number of reviews.
@@ -148,7 +140,7 @@ This project is written in R. To get started with this project, follow these ste
   
    ![model3_reviewnumber_vs_calculatedhost](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/1b187274-7490-4904-b5be-d28452adea81)
 
- - This bar chart illustrates the coefficient for the independent variable (IV) calculated host listings count in relation to the dependent variable (DV) number of reviews. The chart aims to demonstrate how the number of listings a host has affects the review count for individual listings.
+ - This bar chart illustrates the coefficient for the independent variable (IV) _calculated host listings count_ in relation to the dependent variable (DV) _number of reviews_. The chart aims to demonstrate how the number of listings a host has affects the review count for individual listings.
    
       Key Highlights:
       - Negative coefficient: The red bar extends downwards, indicating a negative relationship between calculated host listings count and number of reviews.
@@ -157,7 +149,7 @@ This project is written in R. To get started with this project, follow these ste
 
     ![model3_review number_vs_gender](https://github.com/Varinthon/Exploring-NYC-Airbnb/assets/96362159/06eb377c-3051-490e-97e6-8079813b0137)
 
- - The bar chart illustrates the coefficient for the independent variable (IV) "Gender Male" in relation to the dependent variable (DV) "Number of Reviews". The chart is designed to highlight the impact of gender on the number of reviews received.
+ - The bar chart illustrates the coefficient for the independent variable (IV) _Gender_ in relation to the dependent variable (DV) "Number of Reviews". The chart is designed to highlight the impact of gender on the number of reviews received.
    
       Key Highlights:
       - High Significance: The coefficient for "Gender Male" is significantly different from zero with a p-value of 1.27e-11, suggesting a strong and statistically significant relationship between gender and the number of reviews.
@@ -180,8 +172,8 @@ After using three linear regression models, we found that the service fee (IV) w
 |-----------------------------------|-----------------------------------------------|
 | Varinthon Chowanajin 廖靈通  | Data Collection, Coding, Poster, Presentation, GitHub |
 | Watsayaporn Srimueanghao 史沃天 | Data Collection, Coding, Poster, Presentation, GitHub |
-| Park Jisoo 朴智秀 | Data Collection, Poster, Presentation |
-| Lim Sze Chien 林姿蒨 | Data Collection, Coding, Poster, Presentation |
+| Park Jisoo 朴智秀 | Data Collection, Coding, Poster, Presentation |
+| Lim Sze Chien 林姿蒨 | Data Collection, Poster, Presentation |
 
 # 👥 Acknowledgments
 We would like to sincerely thank Professor Pien Chung-Pei, our instructor from the Big Data course, for his advice and assistance throughout the development of our "Exploring New York City Airbnb" project. His expertise have been invaluable in guiding our analysis and helping us overcome obstacles.
